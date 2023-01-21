@@ -46,8 +46,8 @@
     padding: 17px 273px 16px 20px;
     width: 345px;
     height: 54px;
-    background: #F2F2F2;
-    border: 1px solid #BDBDBD;
+    background: red;
+    border: 1px solid #100f0f;
     border-radius: 10px;
     margin-left: 100px;
 }
@@ -150,7 +150,6 @@
     flex-wrap: wrap;
     gap: 46px 20px;
     column-gap: 25px;
-    margin-bottom: 46px;
 }
 
 .card-settings {
@@ -312,12 +311,9 @@ input.input:checked + span.span {
     background: #FFFFFF;
     border: 1px solid #3ECF5E;
     border-radius: 5px;
-    width: 68px;
-    height: 29px;
 }
 
 .span {
-    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #4F4F4F;
